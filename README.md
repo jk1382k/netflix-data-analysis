@@ -1,52 +1,47 @@
-# 🎬 Netflix Data Analysis
+# 🎬 Netflix Data Analysis using Python
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
-![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-purple)
-![Status](https://img.shields.io/badge/Project-Completed-success)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-green?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-blue?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-purple)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
 ## 📌 Project Overview
 
-This project performs **Exploratory Data Analysis (EDA)** on the **Netflix Movies and TV Shows** dataset using Python.
+This project performs **Exploratory Data Analysis (EDA)** on the Netflix Movies and TV Shows dataset using Python.
 
-The objective is to understand Netflix's content library by analyzing:
-
-- Movies vs TV Shows
-- Content Ratings
-- Top Genres
-- Top Producing Countries
-- Year-wise Content Growth
-- Missing Values
-- Business Insights
+The goal is to analyze Netflix's content library, identify trends, understand content distribution, and generate meaningful business insights through visualization.
 
 ---
 
 ## 🎯 Objectives
 
+- Understand the Netflix dataset
 - Perform data cleaning
-- Explore the dataset
-- Create visualizations
+- Analyze missing values
+- Visualize trends
 - Generate business insights
-- Practice Python for Data Analysis
+- Recommend business improvements
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+| Technology | Purpose |
+|------------|----------|
+| Python | Programming |
+| Pandas | Data Analysis |
+| NumPy | Numerical Computing |
+| Matplotlib | Visualization |
+| Seaborn | Statistical Visualization |
+| Jupyter Notebook | Development Environment |
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 netflix-data-analysis/
@@ -58,68 +53,93 @@ netflix-data-analysis/
 │   └── netflix_eda.ipynb
 │
 ├── images/
+│   ├── movies_vs_tvshows.png
+│   ├── rating_distribution.png
+│   ├── top_countries.png
+│   ├── top_genres.png
+│   └── content_added_year.png
 │
-├── README.md
 ├── requirements.txt
+├── README.md
 ├── LICENSE
 └── .gitignore
 ```
 
 ---
 
-## 📊 Visualizations
+# 📊 Dashboard Preview
 
-### Movies vs TV Shows
+## Movies vs TV Shows
 
-![Movies vs TV Shows](images/movies_vs_tvshows.png)
-
----
-
-### Rating Distribution
-
-![Rating Distribution](images/rating_distribution.png)
+![Movies](images/movies_vs_tvshows.png)
 
 ---
 
-### Top Countries
+## Rating Distribution
 
-![Top Countries](images/top_countries.png)
-
----
-
-### Content Added by Year
-
-![Content Added by Year](images/content_added_year.png)
+![Ratings](images/rating_distribution.png)
 
 ---
 
-### Top Genres
+## Top Countries
 
-![Top Genres](images/top_genres.png)
+![Countries](images/top_countries.png)
 
 ---
 
-## 💡 Key Insights
+## Top Genres
 
-- Netflix has significantly more Movies than TV Shows.
-- International Movies dominate the platform.
+![Genres](images/top_genres.png)
+
+---
+
+## Content Added by Year
+
+![Years](images/content_added_year.png)
+
+---
+
+# 📈 Key Insights
+
+- Movies dominate Netflix's content library.
 - TV-MA is the most common content rating.
 - The United States contributes the highest number of titles.
-- Netflix experienced rapid content growth after 2015.
+- International Movies are the most popular genre.
+- Netflix experienced rapid growth after 2015.
 
 ---
 
-## 🚀 Future Improvements
+# 💼 Business Recommendations
 
-- Interactive Dashboard using Plotly
+### Expand International Content
+
+Continue investing in regional movies and TV shows to increase global subscriber engagement.
+
+### Increase Original Series
+
+Original TV Shows improve customer retention and platform engagement.
+
+### Improve Metadata Quality
+
+Missing values in the dataset should be addressed to enhance recommendation systems.
+
+### Diversify Content Ratings
+
+Expand family-friendly programming while maintaining mature content offerings.
+
+---
+
+# 🚀 Future Improvements
+
+- Interactive Plotly Dashboard
 - Power BI Dashboard
 - Recommendation System
-- Machine Learning Prediction Models
+- Machine Learning Models
 - Streamlit Web Application
 
 ---
 
-## ▶️ How to Run
+# ▶️ How to Run
 
 ```bash
 git clone https://github.com/jk1382k/netflix-data-analysis.git
@@ -133,14 +153,15 @@ jupyter notebook
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Jeevankumar**
 
 - Former Senior Systems Engineer @ Infosys
-- Data Science & AI Enthusiast
-- Learning Data Science & Analytics with Artificial Intelligence at IT Vedant, Chennai
+- B.Tech – Sri Ramakrishna Institute of Technology
+- Learning Data Science & Analytics with AI at IT Vedant, Chennai
+- Aspiring Data Analyst & Data Scientist
 
 ---
 
-## ⭐ If you found this project useful, please consider giving it a star.
+## ⭐ If you found this project helpful, consider giving it a Star.
